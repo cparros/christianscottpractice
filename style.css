@@ -1,0 +1,135 @@
+body {
+  background-color: beige;
+  border-style: solid;
+  border-color: rgb(193, 174, 67);
+  border-width: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1,
+h2,
+h6,
+ol,
+ul {
+  text-align: center;
+  color: rgb(193, 174, 67);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+ol,
+ul {
+  background-color: whitesmoke;
+}
+
+.main {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: rgb(193, 174, 67);
+  box-shadow: 5px 10px rgb(193, 174, 67);
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: whitesmoke;
+}
+
+.table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  font-weight: bold;
+  font-style: unset;
+  color: black;
+}
+
+a:hover {
+  font-size: 25px;
+  transition: 1s;
+  color: rgb(193, 174, 67);
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: square;
+}
+
+li {
+  color: black;
+}
+
+th {
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+}
+
+#image {
+  border-style: solid;
+  border-color: rgb(193, 174, 67);
+  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  padding: 10px;
+  box-shadow: 5px 10px rgb(193, 174, 67);
+  background-color: whitesmoke;
+}
+
+iframe {
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-color: rgb(193, 174, 67);
+  border-width: 5px;
+  border-radius: 15px;
+  box-shadow: 5px 10px rgb(193, 174, 67);
+  background-color: whitesmoke;
+}
+
+iframe:hover {
+  border-color: whitesmoke;
+  transition: 1s;
+}
+
+#image:hover {
+  border-color: whitesmoke;
+  transition: 1s;
+  transition: transform 2s ease;
+  transform: scale(1.10);
+}
+
+table {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-style: double;
+  border-color: rgb(193, 174, 67);
+  border-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  box-shadow: 5px 10px rgb(193, 174, 67);
+  padding: 20px;
+  background-color: whitesmoke;
+}
